@@ -2,7 +2,7 @@ defmodule Verk.Mixfile do
   use Mix.Project
 
   @source_url "https://github.com/edgurgel/verk"
-  @version "1.7.2"
+  @version "1.7.3"
 
   def project do
     [
@@ -30,7 +30,7 @@ defmodule Verk.Mixfile do
 
   defp deps do
     [
-      {:redix, "~> 0.8"},
+      {:redix, "~> 1.2.3"},
       {:jason, "~> 1.0"},
       {:poolboy, "~> 1.5"},
       {:confex, "~> 3.3"},
